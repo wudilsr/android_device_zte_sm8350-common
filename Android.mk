@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter nx669j nx666j,$(TARGET_DEVICE)),)
+ifneq ($(filter nx669j nx666j nx666s p875a02 p875a12,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
